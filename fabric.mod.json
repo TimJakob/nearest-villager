@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nearestvillager",
+  "version": "${version}",
+  "name": "Nearest Villager",
+  "description": "Der naheste Villager bekommt den Job: Workstations werden beim Platzieren sofort reserviert und dem naechsten, erreichbaren Villager zugewiesen. Rein serverseitig.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.nearestvillager.NearestVillagerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
