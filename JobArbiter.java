@@ -274,9 +274,9 @@ public final class JobArbiter {
 			}
 		}
 
-		player.displayClientMessage(Component.literal(owners > 0
+		player.sendSystemMessage(Component.literal(owners > 0
 				? "Diese Workstation gehoert " + (owners == 1 ? "einem Villager (leuchtet)." : owners + " Villagern (leuchten).")
-				: "Diese Workstation gehoert keinem Villager."), true);
+				: "Diese Workstation gehoert keinem Villager."));
 		return true;
 	}
 
